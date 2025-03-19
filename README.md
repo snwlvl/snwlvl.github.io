@@ -5,12 +5,12 @@
 # SNWLVL
 
 **IT Lead | Security Researcher**  
-Currently employed at [Lovingly Signed](https://lovinglysigned.com.sg) \
-Dubai, UAE  
+India / Dubai, UAE  
 Email: [ronsnwlvl@gmail.com](mailto:ronsnwlvl@gmail.com)  
-Phone/WhatsApp: +971 56 463 6527  
+Phone: +91 7865085953
+WhatsApp: +971 56 463 6527  
 
-[GitHub](https://github.com/snwlvl) | [HackerOne](https://hackerone.com/snwlvl) | [Bugcrowd](https://bugcrowd.com/snwlvl)
+[Portfolio](https://snwlvl.github.io) | [GitHub](https://github.com/snwlvl) | [HackerOne](https://hackerone.com/snwlvl) | [Bugcrowd](https://bugcrowd.com/snwlvl)
 
 ---
 
