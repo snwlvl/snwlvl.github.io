@@ -7,7 +7,7 @@
 **IT Lead | Security Researcher**  
 India / Dubai, UAE  
 Email: [ronsnwlvl@gmail.com](mailto:ronsnwlvl@gmail.com)  
-Phone: +91 7865085953
+Phone: +91 7865085953 \
 WhatsApp: +971 56 463 6527  
 
 [Portfolio](https://snwlvl.github.io) | [GitHub](https://github.com/snwlvl) | [HackerOne](https://hackerone.com/snwlvl) | [Bugcrowd](https://bugcrowd.com/snwlvl)
