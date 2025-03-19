@@ -1,0 +1,93 @@
+/* Rick Owens inspired minimalist aesthetic with AKIRA font */
+@import url('https://fonts.cdnfonts.com/css/akira-expanded');
+
+body {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Helvetica', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+header {
+    padding: 50px 20px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Akira Expanded', sans-serif;
+}
+
+section {
+    padding: 40px 20px;
+    border-bottom: 1px solid #ccc;
+    width: 60%;
+    margin: 0 auto;
+}
+h1, h2 {
+    font-family: 'Akira Expanded', sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Akira Expanded', sans-serif;
+}
+
+h3 a {
+    font-weight: bold;
+    font-family: 'Akira Expanded', sans-serif;
+    text-decoration: none; /* Optional: removes underline */
+    color: inherit; /* Optional: keeps the text color same as normal text */
+}
+
+p, ul {
+    font-size: 14px;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Helvetica', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid #000;
+    transition: opacity 0.3s ease;
+    font-family: 'Helvetica', sans-serif;
+    letter-spacing: 0.2rem;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    h1, h2 {
+        font-size: 22px;
+    }
+    h3 {
+        font-size: 16px;
+    }
+}
