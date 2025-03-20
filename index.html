@@ -11,6 +11,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
     <link rel="manifest" href="site.webmanifest">
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/akira-expanded">
     <link rel="stylesheet" href="css/style.css">
     
     <script src="https://cdn.jsdelivr.net/npm/three@0.136.0/build/three.min.js"></script>
@@ -18,13 +19,20 @@
 </head>
 <body>
     <header>
+        <div class="top-right-link">
+            <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1f6rl_Hr9mjBTZN23QBDxzdZU-iIhcFmEa8iSXmuPOafmcCxF7AtInVjgoZtUf2yAd6N0KQ1MS" target="_blank">Book a Call Now ↗</a>
+        </div>
         <h1>Ronit Raj</h1>
         <h3>SNWLVL</h3>
-        <p>Full Stack Developer | IT Lead</p> <br>
-        <p>Email: <a href="mailto:ronsnwlvl@gmail.com">ronsnwlvl@gmail.com</a></p>
-        <p>Call Now: <a href="tel:+917865085953">+91 7865085953</a></p>
-        <p>Whatsapp: <a href="https://wa.me/971564636527">+971 564636527</a></p>
+        <h3>Full Stack Developer | IT Lead</h3> <br>
+        <p>Email: <a href="mailto:ronsnwlvl@gmail.com" target="_blank">ronsnwlvl@gmail.com</a></p>
+        <p>Call Now: <a href="tel:+917865085953" target="_blank">+91 7865085953</a></p>
+        <p>Whatsapp: <a href="https://wa.me/971564636527" target="_blank">+971 564636527</a></p>
 
+        <div class="button-container">
+            <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1f6rl_Hr9mjBTZN23QBDxzdZU-iIhcFmEa8iSXmuPOafmcCxF7AtInVjgoZtUf2yAd6N0KQ1MS" target="_blank" class="button">BOOK CALL</a>
+            <a href="#projects" class="button">PROJECTS</a>
+        </div>
     </header>
     <section id="why-hire-me">
         <h2>Why Hire Me?</h2>
@@ -43,17 +51,67 @@
     <section id="skills">
         <h2>Technical Skills</h2>
         <ul>
-            <li>Languages: Python, JavaScript, PHP, HTML, CSS</li>
+            <li>Languages: Python, JavaScript, PHP, HTML, CSS, C++, C</li>
             <li>Frameworks: React, Kotlin, Vue.js, ASP.NET Core, Next.js, Flask, Django, SQL</li>
-            <li>Tools: Docker, Git, OBS Studio, Unreal Engine</li>
-            <li>Cloud: AWS, DigitalOcean, Vercel</li>
+            <li>Tools: Docker, Git, OBS Studio, Unreal Engine, Blender</li>
+            <li>Cloud: AWS, DigitalOcean, Vercel, Azure</li>
             <li>Security: Vulnerability Discovery, Exploit Development, Burp Suite</li>
         </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="images/liveshare.png" alt="LiveShare">
+                <h3><a href="https://liveshare.arabesports.com" target="_blank">LiveShare</a></h3>
+                <p>Secure video streaming platform.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/livesync.png" alt="LiveSync">
+                <h3><a href="https://vid.arabesports.com/livesync.html" target="_blank">LiveSync</a></h3>
+                <p>WebRTC-based high-quality video transmission.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/pubgm.png" alt="Community Automation Tools for PUBG Mobile">
+                <h3><a href="https://github.com/snwlvl/PUBGM-Community-Automation-Script" target="_blank">Community Automation Tool PUBG Mobile</a></h3>
+                <p>Data filtering automation for esports.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/crimson.jpg" alt="Unreal Engine Studio">
+                <h3><a href="https://youtu.be/D9mERyvYRtk?t=1299" target="_blank">UE Studio PUBGM</a></h3>
+                <p>Unreal Engine Esports Studio.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/nodecg.jpeg" alt="MPL NodeCG Bundle">
+                <h3><a href="https://github.com/snwlvl/mpl-bundle" target="_blank">MPL NodeCG Bundle</a></h3>
+                <p>Live production overlay management.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/crt.png" alt="crt.sh">
+                <h3><a href="https://github.com/snwlvl/crt.sh" target="_blank">crt.sh</a></h3>
+                <p>SSL certificate transparency log monitoring tool.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/ftp.png" alt="FreeFloat FTP Server Exploit">
+                <h3><a href="https://github.com/snwlvl/FreeFloat-FTP-Server-Exploit" target="_blank">FreeFloat FTP Server Exploit</a></h3>
+                <p>Demonstrated exploit development.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/wireguard.png" alt="WireGuard VPN">
+                <h3><a href="https://www.wireguard.com" target="_blank">WireGuard VPN</a></h3>
+                <p>Custom VPN for esports security.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/talents.png" alt="ArabiaTalents">
+                <h3><a href="https://www.arabiatalents.com" target="_blank">Arabia Talents</a></h3>
+                <p>Esports Talents Stats.</p>
+            </div>
+        </div>
     </section>
     <section id="experience">
         <h2>Work Experience</h2>
         <div>
-            <h3>IT Lead (Remote) - <a href="https://lovinglysigned.com.sg">Lovingly Signed</a></h3>
+            <h3>IT Lead (Remote) - <a href="https://lovinglysigned.com.sg" target="_blank">Lovingly Signed</a></h3>
             <p>Oct 2024 - Mar 2025, Singapore</p>
             <ul>
                 <li>Led Shopify development and optimization, enhancing site speed and user experience.</li>
@@ -63,29 +121,29 @@
             </ul>
         </div>
         <div>
-            <h3>Full Stack Developer & MIDI Operator - <a href="https://es.me">ESME</a></h3>
+            <h3>Full Stack Developer & MIDI Operator - <a href="https://es.me" target="_blank">ESME</a></h3>
             <p>Aug 2023 - Oct 2024, Dubai, UAE</p>
             <ul>
-                <li>Developed live streaming platforms (<a href="https://liveshare.arabesports.com">LiveShare</a>, <a href="https://vid.arabesports.com/livesync.html">LiveSync</a>) using WebRTC.</li>
+                <li>Developed live streaming platforms (<a href="https://liveshare.arabesports.com" target="_blank">LiveShare</a>, <a href="https://vid.arabesports.com/livesync.html" target="_blank">LiveSync</a>) using WebRTC.</li>
                 <li>Integrated AWS and DigitalOcean for scalable, reliable cloud infrastructure.</li>
                 <li>Enhanced livestream interactivity with Unreal Engine, creating custom plugins and blueprints.</li>
                 <li>Designed and equipped professional livestream studios for influencers.</li>
-                <li>Developed backend APIs and integrated database features for <a href="https://arabiatalents.com">ArabiaTalents</a> and <a href="https://www.arabesports.com/en">Arabesports</a>.</li>
+                <li>Developed backend APIs and integrated database features for <a href="https://arabiatalents.com" target="_blank">ArabiaTalents</a> and <a href="https://www.arabesports.com/en" target="_blank">Arabesports</a>.</li>
                 <li>Created a custom WireGuard VPN for enhanced internal security.</li>
             </ul>
         </div>
         <div>
-            <h3>Security Analyst - <a href="https://www.arabesports.com/en">Arabesports</a></h3>
+            <h3>Security Analyst - <a href="https://www.arabesports.com/en" target="_blank">Arabesports</a></h3>
             <p>Feb 2019 - Jun 2023, Dubai, UAE</p>
             <ul>
-                <li>Secured and optimized critical applications like <a href="https://arabiatalents.com">ArabiaTalents</a> and <a href="https://www.arabesports.com/en">Arabesports</a>.</li>
+                <li>Secured and optimized critical applications like <a href="https://arabiatalents.com" target="_blank">ArabiaTalents</a> and <a href="https://www.arabesports.com/en" target="_blank">Arabesports</a>.</li>
                 <li>Conducted penetration testing and vulnerability assessments.</li>
                 <li>Implemented security patches and protocols to ensure platform integrity.</li>
                 <li>Designed and deployed automated security checks for real-time monitoring.</li>
             </ul>
         </div>
         <div>
-            <h3>Bug Bounty Hunter - <a href="https://hackerone.com/snwlvl">HackerOne</a> & <a href="https://bugcrowd.com/snwlvl">Bugcrowd</a></h3>
+            <h3>Bug Bounty Hunter - <a href="https://hackerone.com/snwlvl" target="_blank">HackerOne</a> & <a href="https://bugcrowd.com/snwlvl" target="_blank">Bugcrowd</a></h3>
             <p>Aug 2016 - Jan 2019, SF, USA</p>
             <ul>
                 <li>Identified vulnerabilities in high-traffic web applications.</li>
@@ -94,25 +152,13 @@
             </ul>
         </div>
     </section>
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://liveshare.arabesports.com">LiveShare</a> - Secure video streaming platform.</li>
-            <li><a href="https://vid.arabesports.com/livesync.html">LiveSync</a> - WebRTC-based high-quality video transmission.</li>
-            <li><a href="https://github.com/snwlvl/PUBGM-Community-Automation-Script">Community Automation Tools for PUBG Mobile</a> - Data filtering automation for esports.</li>
-            <li><a href="https://github.com/snwlvl/mpl-bundle">MPL NodeCG Bundle</a> - Live production overlay management.</li>
-            <li><a href="https://github.com/snwlvl/crt.sh">crt.sh</a> - SSL certificate transparency log monitoring tool.</li>
-            <li><a href="https://github.com/snwlvl/FreeFloat-FTP-Server-Exploit">FreeFloat FTP Server Exploit</a> - Demonstrated exploit development.</li>
-            <li><a href="https://www.wireguard.com">WireGuard VPN</a> - Custom VPN for esports security.</li>
-        </ul>
-    </section>
     <section id="contact">
         <h2>Work Profile</h2>
-        <p>GitHub: <a href="https://github.com/snwlvl">github.com/snwlvl</a></p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/ronsnwlvl">linkedin.com/in/ronsnwlvl</a></p>
-        <p>HackerOne: <a href="https://hackerone.com/snwlvl">hackerone.com/snwlvl</a></p>
-        <p>Bugcrowd: <a href="https://bugcrowd.com/snwlvl">bugcrowd.com/snwlvl</a></p>
-        <p>Email: <a href="mailto:ronsnwlvl@gmail.com">ronsnwlvl@gmail.com</a></p>
+        <p>GitHub: <a href="https://github.com/snwlvl" target="_blank">github.com/snwlvl</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/ronsnwlvl" target="_blank">linkedin.com/in/ronsnwlvl</a></p>
+        <p>HackerOne: <a href="https://hackerone.com/snwlvl" target="_blank">hackerone.com/snwlvl</a></p>
+        <p>Bugcrowd: <a href="https://bugcrowd.com/snwlvl" target="_blank">bugcrowd.com/snwlvl</a></p>
+        <p>Email: <a href="mailto:ronsnwlvl@gmail.com" target="_blank">ronsnwlvl@gmail.com</a></p>
     </section>
 
     <script>
